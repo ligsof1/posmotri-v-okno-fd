@@ -1,0 +1,1 @@
+git@github.com:ligsof1/posmotri-v-okno-fd.git
