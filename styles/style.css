@@ -27,6 +27,12 @@ ol {
   list-style: none;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+
 .page {
   width: 1200px;
   height: 100%;
@@ -68,7 +74,7 @@ ol {
   gap: 30px;
   width: 100%;
   max-width: 1200px;
-  padding: 0px 13px 66px 30px;
+  padding: 2px 13px 0px 30px;
 }
 
 .content__details {
@@ -114,7 +120,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 1px 4px 0px 2px;
+  padding: 4px 4px 0px 2px;
 }
 
 .content__video-card {
@@ -198,6 +204,11 @@ ol {
   display: flex;
   gap: 15px;
 }
+
+.search-form__textfield:focus {
+  outline: none;
+}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #FFF;
   outline-offset: 1px;
@@ -255,7 +266,7 @@ ol {
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
-  padding: 6px 0;
+  padding: 5px 0;
   text-align: center;
 }
 
