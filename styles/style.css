@@ -28,8 +28,8 @@ ol {
 }
 
 .page {
-  inline-size: 1200px;
-  block-size: 100%;
+  width: 1200px;
+  height: 100%;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
